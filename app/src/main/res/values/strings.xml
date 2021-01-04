@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TaxiApp</string>
+    <string name="title_activity_driver_maps">Map</string>
+    <string name="title_activity_passenger_maps">Map</string>
+    <string name="already_have_an_account">Already have an account? Sign In</string>
+    <string name="register_now">Register now</string>
+    <string name="getting_your_driver_location">Getting your driver location…</string>
+    <string name="getting_your_taxi">Getting your taxi…</string>
+    <string name="distance_to_driver">\"Distance to driver \"</string>
+    <string name="your_driver_is_here">Your driver is here</string>
+    <string name="welcome_i_m">Welcome I\'m</string>
+    <string name="passenger">Passenger</string>
+    <string name="driver">Driver</string>
+    <string name="taxi_splash_screen">Taxi splash screen</string>
+    <string name="settings">Settings</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="book_taxi">Book Taxi</string>
+    <string name="taxi">T A X I</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PassengerMapsActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_passenger_maps_ll_top_buttons"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/activity_passenger_maps_btn_settings"
+            android:text="@string/settings"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/activity_passenger_maps_btn_sign_out"
+            android:text="@string/sign_out"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_below="@id/activity_passenger_maps_ll_top_buttons"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/activity_passenger_maps_btn_book_taxi"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/design_default_color_primary"
+        android:text="@string/book_taxi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

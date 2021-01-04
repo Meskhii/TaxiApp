@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseModeActivity">
+
+    <ImageView
+        android:src="@drawable/taxi_splash_screen"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/taxi_splash_screen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:text="@string/welcome_i_m"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="200dp"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:textColor="@color/design_default_color_secondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/activity_choose_mode_btn_passenger"
+            android:text="@string/passenger"
+            android:onClick="goToPassengerSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp" />
+
+        <Button
+            android:id="@+id/activity_choose_mode_btn_driver"
+            android:text="@string/driver"
+            android:onClick="goToDriverSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</FrameLayout>
